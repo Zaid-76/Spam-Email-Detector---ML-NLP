@@ -1,0 +1,15 @@
+# Python-specific files
+__pycache__/
+*.pyc
+.idea/
+
+# Virtual environment directory
+.venv/
+
+# Sensitive files that should not be in version control
+credentials.json
+token.pickle
+
+# Operating System files
+.DS_Store
+Thumbs.db
