@@ -73,7 +73,7 @@ def classify_recent_emails(classifier, cv):
                                                   # output
                         break
 
-                classification = "SPAM" if prediction[0] == 1 else "NOT SPAM" # The classification part
+                classification = "SPAM" if prediction == 1 else "NOT SPAM" # The classification part
                 print(f"Subject: {subject} -> Classification: {classification}")
 
     except Exception as e:
